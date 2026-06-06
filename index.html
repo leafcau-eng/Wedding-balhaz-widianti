@@ -25,6 +25,7 @@ html,body{height:100%;overflow:hidden;}
 .music-btn{animation:musicPulse 2s ease-in-out infinite;}
 .music-btn.playing .disc{animation:spin 3s linear infinite;}
 </style>
+<link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
 </head>
 <body>
 <div id="root"></div>
@@ -91,7 +92,7 @@ const CSS=`
   60%{opacity:1;transform:translateX(-1px) scale(1.05);filter:blur(0);}
   100%{opacity:1;transform:translateX(0) scale(1);filter:blur(0);}
 }
-.arabic-char{
+.arabic-char{font-family:"Amiri",serif;
   display:inline-block;
   opacity:0;
 }
