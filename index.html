@@ -670,18 +670,6 @@ const guestName = decodeURIComponent(
             </button>
           </div>
 
-          {/* WA shortcut */}
-          <div style={{display:"flex",gap:8,marginTop:12,marginBottom:24}}>
-            <button onClick={()=>wa(`Assalamu'alaikum, saya *Hadir* di pernikahan Balhaz & Widianti 2 Juli 2026 🎉\n\nNama: \nJumlah tamu: `)}
-              style={{flex:1,padding:"10px 8px",border:`1.5px solid ${GOLD_LIGHT}`,borderRadius:10,background:"#FFFDF8",cursor:"pointer",fontFamily:"'Poppins',sans-serif",fontSize:11,fontWeight:600,color:GOLD_DARK}}>
-              ✅ Konfirmasi WA
-            </button>
-            <button onClick={()=>wa(`Assalamu'alaikum, mohon maaf saya *Tidak Hadir* 🙏\n\nNama: \nUcapan: `)}
-              style={{flex:1,padding:"10px 8px",border:`1.5px solid ${GOLD_LIGHT}`,borderRadius:10,background:"#FFFDF8",cursor:"pointer",fontFamily:"'Poppins',sans-serif",fontSize:11,fontWeight:600,color:"#9B7A3A"}}>
-              ❌ Tidak Hadir
-            </button>
-          </div>
-
           {/* Ucapan list */}
           {div}
           <div style={{...PP,fontSize:11,color:GOLD_DARK,fontWeight:600,marginBottom:12}}>💬 Ucapan Tamu</div>
